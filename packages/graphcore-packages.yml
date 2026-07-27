@@ -1,0 +1,39 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/graphcore
+notes: >-
+  Graphcore ships no public REST API; its developer surface is the Poplar SDK for
+  the IPU (Intelligence Processing Unit). The first-party client libraries below are
+  distributed as source on the graphcore GitHub org and as prebuilt wheels/binaries
+  inside the Poplar SDK download (https://www.graphcore.ai/downloads). None are
+  published to PyPI (pypi.org/pypi/poptorch/json returned 404), so the registry is
+  GitHub source + the SDK download rather than a package index.
+packages:
+  - language: python
+    registry: github
+    name: poptorch
+    url: https://github.com/graphcore/poptorch
+    install: "included in the Poplar SDK download; pip install the bundled poptorch wheel"
+    description: PyTorch interface for the Graphcore IPU.
+    official: true
+  - language: cpp
+    registry: github
+    name: popart
+    url: https://github.com/graphcore/popart
+    install: "included in the Poplar SDK download (Poplar Advanced Runtime)"
+    description: Poplar Advanced Runtime for the IPU (inference + training graph execution, ONNX import).
+    official: true
+  - language: cpp
+    registry: github
+    name: poplibs
+    url: https://github.com/graphcore/poplibs
+    install: "included in the Poplar SDK download"
+    description: Poplar libraries of higher-level math and ML functions for the IPU.
+    official: true
+  - language: python
+    registry: github
+    name: examples
+    url: https://github.com/graphcore/examples
+    install: "git clone https://github.com/graphcore/examples"
+    description: Example ML applications and reference models optimised for Graphcore IPUs.
+    official: true

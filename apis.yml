@@ -1,8 +1,29 @@
 aid: graphcore
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/graphcore.png
 name: Graphcore
-description: 'Graphcore is a company surfaced as a portfolio company of atomico, balderton-capital, dcvc
-  and added to the API Evangelist network as a stub for enrichment. Sector: artificial-intelligence. This
-  profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Graphcore is a semiconductor and AI-computing company that designs the Intelligence
+  Processing Unit (IPU), a processor purpose-built for machine intelligence workloads,
+  along with the IPU-Machine, IPU-POD and Bow systems that scale it. Its developer
+  surface is the Poplar SDK software stack -- Poplar, PopART (Poplar Advanced Runtime),
+  PopTorch (a PyTorch interface for the IPU) and PopLibs -- distributed as open-source
+  components on GitHub and as prebuilt wheels in the Poplar SDK download. Graphcore
+  targets training and inference for deep-learning models and integrates with standard
+  frameworks such as PyTorch, TensorFlow and ONNX. Founded in Bristol, UK, Graphcore
+  became part of SoftBank Group in 2024. It exposes no public REST API; this profile
+  catalogs its software developer surface. Surfaced originally as a portfolio company
+  of Atomico, Balderton Capital and DCVC and enriched by the API Evangelist pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/graphcore/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +35,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Artificial Intelligence
+- Machine Learning
+- Semiconductors
+- AI Accelerator
+- Hardware
+- Deep Learning
+- SDK
+- Developer Tools
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,5 +53,36 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/graphcore-domain-security.yml
 - type: Website
   url: https://www.graphcore.ai
+- type: Documentation
+  url: https://docs.graphcore.ai/
+- type: DeveloperPortal
+  url: https://docs.graphcore.ai/
+- type: Blog
+  url: https://www.graphcore.ai/blog
+- type: GitHubOrganization
+  url: https://github.com/graphcore
+- type: Support
+  url: https://www.graphcore.ai/contact
+- type: TermsOfService
+  url: https://www.graphcore.ai/termsofuse
+- type: PrivacyPolicy
+  url: https://www.graphcore.ai/privacy
+- type: Downloads
+  url: https://www.graphcore.ai/downloads
+- type: Packages
+  url: packages/graphcore-packages.yml
+- type: SDKs
+  url: packages/graphcore-packages.yml
+- type: WellKnown
+  url: well-known/graphcore-well-known.yml
+- type: LLMsTxt
+  url: llms/graphcore-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

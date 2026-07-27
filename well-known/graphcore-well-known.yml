@@ -1,0 +1,26 @@
+generated: '2026-07-19'
+method: searched
+host: https://www.graphcore.ai
+notes: >-
+  Probed the standard /.well-known/ discovery surface on the marketing host
+  (www.graphcore.ai) and the docs host (docs.graphcore.ai). No documents are
+  published; every path returned 404. Recorded here as valid negative discovery data.
+documents:
+  - path: /.well-known/security.txt
+    host: https://www.graphcore.ai
+    status: 404
+  - path: /.well-known/security.txt
+    host: https://docs.graphcore.ai
+    status: 404
+  - path: /.well-known/openid-configuration
+    host: https://www.graphcore.ai
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    host: https://www.graphcore.ai
+    status: 404
+  - path: /.well-known/api-catalog
+    host: https://www.graphcore.ai
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    host: https://www.graphcore.ai
+    status: 404
