@@ -1,0 +1,27 @@
+# Front Door AI Index — graphcore — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: graphcore
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.graphcore.ai
+  final_host: www.graphcore.ai
+  ownership: own
+  owner: graphcore
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 5
+  host_score: 5
+  density: 25.77
+  words: 194
+  tiers:
+    agentic: 0
+    core: 5
+    model: 0
+  ambiguous: 2
+  top_terms:
+    machine learning: 3
+    AI: 2
+    intelligence: 2
