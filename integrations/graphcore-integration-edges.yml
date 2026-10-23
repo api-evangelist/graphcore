@@ -35,6 +35,26 @@ edges:
     detected: '2026-10-15'
   detected_by: sweep-mlops.py
   first_seen: '2026-10-15'
+- partner_name: Hugging Face (hugging-face-hub)
+  partner: hugging-face
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: hugging-face-hub
+  evidence: https://huggingface.co/Graphcore
+  mirror_of: hugging-face/integrations/hugging-face-integration-edges.yml
+  apps:
+  - Graphcore/GTSQA
+  - Graphcore
+  listing_count: 2
+  detected: '2026-10-23'
+  detected_by: mirror-platform-listings.py
+  category: Hugging Face Hub datasets
+  badges:
+  - Verified publisher (Hugging Face verified organisation)
 generated: '2026-10-15'
 method: searched
 source:
@@ -44,3 +64,4 @@ checked:
 - https://github.com/kubeflow/website
 - https://github.com/lfai/landscape
 - https://github.com/mlcommons
+- hugging-face/integrations/hugging-face-integration-edges.yml
