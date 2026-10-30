@@ -64,6 +64,85 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Graphcore is a company surfaced as a portfolio company of atomico, balderton-capital, dcvc and added to the API Evangelist network as a stub for enrichment. Sector: artificial-intelligence. This profile is a lead awaiting the enrichment pipeline.
+Graphcore is a semiconductor and AI-computing company that designs the Intelligence Processing Unit (IPU), a processor purpose-built for machine intelligence workloads, along with the IPU-Machine, IPU-POD and Bow systems that scale it. Its developer surface is the Poplar SDK software stack -- Poplar, PopART (Poplar Advanced Runtime), PopTorch (a PyTorch interface for the IPU) and PopLibs -- distributed as open-source components on GitHub and as prebuilt wheels in the Poplar SDK download. Graphcore targets training and inference for deep-learning models and integrates with standard frameworks such as PyTorch, TensorFlow and ONNX. Founded in Bristol, UK, Graphcore became part of SoftBank Group in 2024. It exposes no public REST API; this profile catalogs its software developer surface. Surfaced originally as a portfolio company of Atomico, Balderton Capital and DCVC and enriched by the API Evangelist pipeline.
 
-Backed by: atomico, balderton-capital, dcvc — https://www.graphcore.ai
+**Areas:** Company · Artificial Intelligence · Machine Learning · Semiconductors · AI Accelerators · Hardware · Deep Learning · SDK · Developer Tools
+
+## Graphcore on APIs.io
+
+Everything profiled for Graphcore is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/graphcore/](https://apis.io/providers/graphcore/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Graphcore Domain Security](https://apis.io/security/graphcore/graphcore-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.graphcore.ai)
+- [Documentation](https://docs.graphcore.ai/)
+- [Support](https://www.graphcore.ai/contact)
+- [Blog](https://www.graphcore.ai/blog)
+- [Terms of service](https://www.graphcore.ai/termsofuse)
+- [Privacy policy](https://www.graphcore.ai/privacy)
+- [GitHub](https://github.com/graphcore)
+
+## API Evangelist rating
+
+**Kin Score 16.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 33.3 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 12.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/graphcore/](https://apis.io/providers/graphcore/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Graphcore: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/graphcore/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
